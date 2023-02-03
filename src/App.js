@@ -49,7 +49,8 @@ const App = () => {
 
             <div>
                 <Routes>
-                    <Route path='/' index element={(<Home />)} ></Route> 
+                    <Route path='/' index element={(<Home />)} ></Route>
+                    <Route path='/dashboard' index element={(<Home />)} ></Route> 
                     <Route path="/home" element={(<Home />)} />
 
                     {/* Pages */}
